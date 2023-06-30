@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    height: 80px;
+    background-color: #6384d2;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-button {
+    flex-basis: 400px;
+    text-align: center;
+    height: 40px;
+    background-color: #b4dff3;
+    border: #5074c7;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 30px;
+    color: #2ea1ff;
+    margin: 10px;
+}
+.nav-button:hover {
+    background-color: #24ffe2;
+}
+a {
+    text-decoration: none;
+}
+main {
+    background-color: rgb(61, 226, 255);
+    padding: 10px;
+    height: 700px;
+}
+.hobbies {
+    display: flex;
+    flex-direction: column;
+}
+.text-hobbies {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+}
+.td-text {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 30px;
+    color: #ffffff
+}
+p {
+    font-family: 'Comic Sans MSs', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+table {
+    border-radius: 10px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+h3 {
+    color: #ffffff;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+}
